@@ -4,7 +4,7 @@ import { Filter, Users } from "lucide-react";
 import Hero from "../components/Hero";
 import TeamMemberCard from "../components/TeamMemberCard";
 import { Button } from "../components/ui/button";
-import { teamMembers, categoryNames, TeamMember } from "../data/teamMembers";
+import { teamMembers, categoryNames, TeamMember } from "../data/teamMembers.ts";
 import { useLanguage } from "../contexts/LanguageContext";
 
 const Team: React.FC = () => {

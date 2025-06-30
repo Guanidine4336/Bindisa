@@ -1,6 +1,6 @@
 import React from "react";
 import { Linkedin } from "lucide-react";
-import { TeamMember } from "../data/teamMembers";
+import { TeamMember } from "../data/teamMembers.ts";
 
 interface TeamMemberCardProps {
   member: TeamMember;

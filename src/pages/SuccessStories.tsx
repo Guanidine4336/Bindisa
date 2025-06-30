@@ -14,7 +14,7 @@ import {
   testimonials,
   categoryNames,
   getTotalStats,
-} from "../data/testimonials";
+} from "../data/testimonials.ts";
 import { useLanguage } from "../contexts/LanguageContext";
 
 const SuccessStories: React.FC = () => {

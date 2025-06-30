@@ -1,6 +1,6 @@
 import React from "react";
 import { MapPin, TrendingUp, Sprout } from "lucide-react";
-import { Testimonial } from "../data/testimonials";
+import { Testimonial } from "../data/testimonials.ts";
 
 interface TestimonialCardProps {
   testimonial: Testimonial;
