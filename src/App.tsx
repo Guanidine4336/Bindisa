@@ -4,6 +4,7 @@ import { LanguageProvider } from "./contexts/LanguageContext";
 import { AuthProvider } from "./contexts/AuthContext";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import BackendStatusNotification from "./components/BackendStatusNotification";
 
 // Pages
 import Home from "./pages/Home";
@@ -27,6 +28,7 @@ function App() {
       <AuthProvider>
         <BrowserRouter>
           <div className="min-h-screen flex flex-col">
+            <BackendStatusNotification />
             <Navbar />
             <main className="flex-1">
               <Routes>
